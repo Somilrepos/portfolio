@@ -1,0 +1,292 @@
+html{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.outer-box {
+    display: flex;
+    height: 100%;
+}
+
+h3
+{
+    padding: 0%;
+    margin: 0%;
+}
+.main-page
+{   
+    margin-left:26vw ;
+    width: 75vw;
+    padding: 3%;
+}
+.table-of-contents
+{   
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+    width: 25vw;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+}
+.contents
+{   
+    font-family: system-ui;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-bottom: 3%;
+}
+
+.contents:hover
+{
+    text-decoration: underline;
+}
+
+.contents1
+{
+    font-family: Rajdhani;
+    font-weight: light;
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+    margin-bottom: 3%;
+}
+
+.contents1:hover
+{
+    color: rgb(119, 119, 119);
+}
+
+.header
+{
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.name
+{
+    width: 25%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: rajdhani;
+}
+
+.quote
+{
+    width: 75%;
+    text-align: center;
+    font-size: x-large;
+    font-family: caveat;
+}
+
+.main-page-body
+{
+    background-color: beige;
+
+}
+
+p 
+{
+    font-size: large;
+}
+
+.skill-flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon-img
+{   
+    width: 50%;
+    object-fit: fit;
+    margin: 7%;
+    
+}
+
+.tag
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.logobox
+{
+    height: 70%;
+}
+
+.imbox
+{
+    border-color: red solid;
+}
+
+.skill-box{
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+    padding-bottom: 1%;
+}
+
+.skill-flex-box
+{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1  ; 
+    border-radius: 5%;  
+    margin-right: 2%;
+    background-color: rgb(240, 240, 240);
+}
+
+
+.about-me-text
+{
+    padding-left: 3%; margin-bottom: 1%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.timeline {
+position: relative;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.timeline::after {
+content: '';
+position: absolute;
+width: 6px;
+background-color: white;
+top: 0;
+bottom: 0;
+left: 50%;
+margin-left: -3px;
+}
+
+.container {
+padding: 10px 40px;
+position: relative;
+background-color: inherit;
+width: 50%;
+}
+
+.container::after {
+content: '';
+position: absolute;
+width: 25px;
+height: 25px;
+right: -17px;
+background-color: white;
+border: 4px solid #FF9F55;
+top: 15px;
+border-radius: 50%;
+z-index: 1;
+}
+
+.left {
+left: 0;
+}
+
+.right {
+left: 50%;
+}
+
+.left::before {
+content: " ";
+height: 0;
+position: absolute;
+top: 22px;
+width: 0;
+z-index: 1;
+right: 30px;
+border: medium solid white;
+border-width: 10px 0 10px 10px;
+border-color: transparent transparent transparent white;
+}
+
+.right::before {
+content: " ";
+height: 0;
+position: absolute;
+top: 22px;
+width: 0;
+z-index: 1;
+left: 30px;
+border: medium solid white;
+border-width: 10px 10px 10px 0;
+border-color: transparent white transparent transparent;
+}
+
+.right::after {
+left: -16px;
+}
+
+.content {
+padding: 20px 30px;
+background-color: white;
+position: relative;
+border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+.timeline::after {
+    left: 31px;
+}
+
+.container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+}
+
+.container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.left::after, .right::after {
+    left: 15px;
+}
+
+.right {
+    left: 0%;
+}
+}
+
+.connect-box{
+
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+    padding-bottom: 1%;
+}
+
+.social-icon:hover
+{
+    opacity: 0.3;
+}
+
+.main-page-title
+{
+    font-size: xxx-large;
+    margin-left: 1%; 
+    margin-top: 2%;
+}
