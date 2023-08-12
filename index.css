@@ -28,11 +28,11 @@ h3
     height: 100%;
     background-color: rgb(240, 240, 240);
     width: 25vw;
-    padding-left: 1%;
+    padding-left: 2vh;
     display: flex;
     flex-direction: column;
     position: fixed;
-    padding-top: 3%;
+    padding-top: 5vh;
 }
 
 .table-of-contents h2{
@@ -44,7 +44,8 @@ h3
     font-weight: bold;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    margin-bottom: 1%;
+    font-size: 1.1vw;
+
 }
 
 .contents:hover
@@ -58,7 +59,8 @@ h3
     font-weight: light;
     color: rgb(66, 66, 66);
     text-decoration: none;
-    margin-bottom: 3%;
+    margin-bottom: 1vw;
+    font-size: 1.1vw;
 }
 
 .contents1:hover
