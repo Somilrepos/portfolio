@@ -33,6 +33,7 @@ h3
     flex-direction: column;
     position: fixed;
     justify-content: center;
+    overflow: auto;
 }
 
 .table-of-contents h2{
